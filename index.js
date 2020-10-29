@@ -50,7 +50,10 @@ let count = 0;
 function counter2() {
   return count++;
 }
+// **ANSWERS**
+// 1. The difference between the counters is that counter1 defines the value for count within the first function, limiting its scope and accessiblity. It needs the return function as it's function to make count accessible. Counter2 defines the value of count in global scope where it is stored in memory so when the function is called, the function will search for it outside and be able to refer to it.
 
+// 2. 
 
 /* Task 2: inning() 
 
